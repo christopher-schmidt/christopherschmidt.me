@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Arapey;
+  src: url('../fonts/arapey.ttf');
+}
+
+@font-face {
+  font-family: 'Mono Social Icons Font';
+  src: url('../fonts/icons.eot');
+  src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/icons.woff') format('woff'),
+       url('../fonts/icons.ttf') format('truetype'),
+       url('../fonts/icons.svg#MonoSocialIconsFont') format('svg');
+  src: url('../fonts/icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.symbol, a.symbol:before {
+  color: #FFF;
+  font-family: 'Mono Social Icons Font';
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+a.symbol:before {
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 130%;
+}
+					
+
+body {
+  padding-top: 40px;
+  font-family: Arapey, serif;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+h4, h5, h6 {
+  font-weight: 300;
+}
+
+iframe {
+  border: none;
+}
+
+.video {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+#landing {
+  color: #FFF;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/chris_mono.jpeg');
+}
+
+#dancing {
+  color: #FFF;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/chris_dance.jpeg');
+  background-position: left top;
+}
+
+#contact {
+  color: #FFF;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/chris_steps.jpeg');
+  background-position: left top;
+}
+
+#imprint > .row,
+#contact > .row {
+  margin-left: -50px;
+}
+
+#landing > .row {
+  margin-top: 200px;
+}
+
+#imprint > .row,
+#dancing > .row,
+#contact > .row {
+  margin-top: 90px;
+}
+
+#contact a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+#imprint > .row > div,
+#contact > .row > div {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+
+#imprint {
+  color: #FFF;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/chris_steps.jpeg');
+  background-position: left top;
+}
+
+#imprint a {
+  color: #444;
+  text-decoration: none;
+}
